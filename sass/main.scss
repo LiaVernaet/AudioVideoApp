@@ -1,0 +1,362 @@
+
+@import '_var';
+
+#logo {
+ margin: 0 auto;
+ display: block;
+ padding-top: 20px;
+ padding-bottom: 20px;
+ margin-right: 220px;
+
+
+}
+
+li {
+  list-style-type: none;
+}
+
+#header {
+  background-color: $header-footer-color;
+}
+
+
+#mainNav ul {
+	text-transform: uppercase;
+  background-color: $nav-background;
+  padding-top: 20px;
+  padding-bottom: 70px;
+  margin-bottom: 30px;
+	
+}
+
+#mainNav ul li {
+  float: left;
+  margin-left: 15px;
+  
+	
+}
+
+#mainNav ul li a {
+	display: block;
+	width: 200px;
+  background-color: $button-color;
+	color: $button-text;
+	margin-left: 40px;
+	text-align: center;
+	padding: 13px;
+	font-size: 23px;
+  border-radius: 7px;
+  text-decoration: none;
+  font-family: 'Cooper Black';
+  box-shadow: 0 10px 25px rgba(80, 90, 172, 0.6) inset;
+
+  -webkit-transition: background-color .5s ease-out;
+  -moz-transition: background-color .5s ease-out;
+  -o-transition: background-color .5s ease-out;
+  transition: background-color .5s ease-out;
+
+  -webkit-transition: color .5s ease-out;
+  -moz-transition: color .5s ease-out;
+  -o-transition: color .5s ease-out;
+  transition: color .5s ease-out;
+
+}
+
+#mainNav li a:hover {
+  background-color: $account-button; 
+  color: $button-color;
+}
+
+#button:hover {
+  background-color: $account-button; 
+  color: $button-color;
+}
+
+
+#myAccount {
+  float: right;
+  margin-bottom: 40px;
+  margin-right: 20px;
+  margin-top: 10px;
+  
+	
+}
+
+#myAccount a {
+	display: block;
+	width: 200px;
+  background-color: $account-button;
+	color: $account-text-color;
+	margin-left: 40px;
+	text-align: center;
+	padding: 13px;
+	font-size: 23px;
+  border-radius: 7px;
+  text-decoration: none;
+  font-family: 'Cooper Black';
+  box-shadow: 0 10px 25px rgba(80, 90, 172, 0.6) inset;
+
+  -webkit-transition: background-color .5s ease-out;
+  -moz-transition: background-color .5s ease-out;
+  -o-transition: background-color .5s ease-out;
+  transition: background-color .5s ease-out;
+
+  -webkit-transition: color .5s ease-out;
+  -moz-transition: color .5s ease-out;
+  -o-transition: color .5s ease-out;
+  transition: color .5s ease-out;
+
+}
+
+#myAccount a:hover {
+  background-color: $button-color; 
+  color: $button-text;
+}
+
+#search form 
+{
+	margin-bottom: 20px;
+}
+
+#search {
+	float: right;
+	
+}
+
+#search input {
+  background-color: $searchbar-color;
+	width: 250px;
+	padding: 10px 20px 10px 20px; /*trbl- top right bottom left*/
+	border: 1px solid #d1d1d1;
+	border-radius: 10px;
+  box-shadow: 0 10px 25px rgba(80, 90, 172, 0.3) inset;
+  font-size: 14px;
+}
+
+button {
+  // display: block;
+	width: 100px;
+  background-color: $button-color;
+	color: $button-text;
+	margin-left: 20px;
+	text-align: center;
+	padding: 13px;
+	font-size: 18px;
+  border-radius: 7px;
+  text-decoration: none;
+  font-family: 'Cooper Black';
+  margin-right: 25px;
+  box-shadow: 0 10px 25px rgba(80, 90, 172, 0.6) inset;
+  
+  -webkit-transition: background-color .5s ease-out;
+  -moz-transition: background-color .5s ease-out;
+  -o-transition: background-color .5s ease-out;
+  transition: background-color .5s ease-out;
+
+  -webkit-transition: color .5s ease-out;
+  -moz-transition: color .5s ease-out;
+  -o-transition: color .5s ease-out;
+  transition: color .5s ease-out;
+}
+
+body {
+  background-color: $site-bg;
+}
+
+#videoContainer {
+  background-color: black;
+  padding-bottom: 500px;
+  // margin-top: 180px;
+  width: 1680px;
+  margin: 0 auto;
+}
+
+#reelBorder {
+  width: 1600px;
+}
+
+#thumbnail {
+  padding-bottom: 100px;
+  color: black;
+}
+
+#menu {
+  padding-left: 70px;
+  background-color: $nav-background;
+}
+
+#prevbtn {
+  padding-bottom: 40px;
+  padding-right: 10px;
+}
+
+#nextbtn {
+  padding-bottom: 40px;
+  padding-left: 10px;
+}
+
+footer p {
+  font-size: 30px;
+  font-family: 'Microsoft Yi Baiti';
+  color: $button-text;
+  float: right;
+  background-color: $header-footer-color;
+padding-left: 1243px;
+padding-right: 100px;
+padding-bottom: 20px;
+padding-top: 10px;
+margin-top: 20px;
+}
+
+
+
+   @media only screen and (min-width: 1px) and (max-width: 720px) {
+
+    #header {
+      background-color: red;
+    }
+
+    #logo {
+      margin: 0 auto;
+      display: block;
+      padding-top: 20px;
+      padding-bottom: 20px;
+      max-width: 85%;
+     
+     
+     }
+
+     #mainNav ul {
+
+      padding-bottom: 100px;
+
+     }
+     
+    #mainNav ul li {
+      margin: 0 auto;
+      float: none;
+      margin-left: 15px;
+      
+      
+    }
+    
+    #mainNav ul li a {
+      width: 400px;
+      margin-left: 100px;
+      margin-bottom: 30px;
+      padding: 18px;
+      font-size: 33px;
+    
+    }
+
+
+
+#search input {
+	width: 300px;
+	padding: 10px 20px 10px 20px; /*trbl- top right bottom left*/
+  font-size: 24px;
+}
+
+button {
+	width: 200px;
+	margin-left: 20px;
+	padding: 18px;
+	font-size: 24px;
+  margin-right: 45px;
+}
+
+#videoContainer {
+  width: 700px;
+}
+
+#reelBorder {
+  width: 720px;
+}
+
+#menu {
+  padding-left: 0px;
+}
+
+#prevbtn {
+  padding-bottom: 40px;
+  padding-right: 10px;
+}
+
+#nextbtn {
+  padding-bottom: 40px;
+  padding-left: 10px;
+}
+
+footer p {
+  font-size: 40px;
+  float: right;
+padding-left: 630px;
+padding-right: 80px;
+padding-bottom: 20px;
+padding-top: 10px;
+margin-top: 20px;
+}
+
+
+   }
+
+
+   @media only screen and (min-width: 720px) and (max-width: 1024px) {
+
+    #header {
+      background-color: green;
+    }
+    #logo {
+      margin: 0 auto;
+      display: block;
+      padding-top: 20px;
+      padding-bottom: 20px;
+      max-width: 85%;
+     
+     
+     }
+    
+    #mainNav ul li a {
+      width: 200px;
+      margin-left: 20px;
+
+    
+    }
+    
+    button {
+      // display: block;
+      width: 100px;
+      background-color: $button-color;
+      color: $button-text;
+      margin-left: 20px;
+      text-align: center;
+      padding: 13px;
+      font-size: 18px;
+      border-radius: 7px;
+      text-decoration: none;
+      font-family: 'Cooper Black';
+      margin-right: 25px;
+      box-shadow: 0 10px 25px rgba(80, 90, 172, 0.6) inset;
+    }
+
+    #videoContainer {
+
+      width: 1024px;
+
+    }
+    
+    #reelBorder {
+      width: 1024px;
+    }
+    
+
+    
+    #menu {
+      padding-left: 10px;
+    }
+  
+
+    
+
+   }
+

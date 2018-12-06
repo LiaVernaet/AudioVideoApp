@@ -1,0 +1,23 @@
+{
+  "name": "Vernaet_Lia_videoApp",
+  "version": "1.0.0",
+  "description": "A video app for Movietime.",
+  "main": "index.js",
+  "dependencies": {},
+  
+
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LiaVernaet/Vernaet_Lia_videoApp"
+  },
+  "keywords": [
+    "movietime"
+  ],
+  "author": "Lia Verneat",
+  "license": "ISC",
+
+  "homepage": "https://github.com/LiaVernaet/Vernaet_Lia_videoApp"
+}
